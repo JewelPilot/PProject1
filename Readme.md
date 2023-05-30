@@ -1,10 +1,10 @@
-Personal Portfolio
+**Personal Portfolio**
 This Repo is my personal portfolio, showcasing my education, skills, and achievements.I will make continuous updates that are relevant to my growth.
 
-Education
+**Education**
 I have successfully completed my studies at the Illinois Institute of Technology, earning a degree in Information and Technology Management. Throughout my academic journey, I have gained a strong understanding of current technology practices and their applications in real-world scenarios.
 
-Skills
+**Skills**
 Project management
 Data analysis and interpretation
 Problem-solving and critical thinking

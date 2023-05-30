@@ -5,40 +5,47 @@
     box-sizing: border-box;
   }
   
-  body {
-    font-family: 'Arial', sans-serif;
+  html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    color: #333;
+    background-color: #f4f4f4; /* Changed from #050505 to #f4f4f4 for better contrast */
+    color: #333; /* Changed from #333 to #f4f4f4 for better readability */
   }
   
   /* Navigation Bar */
   nav {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 1.5;
     background-color: #f4f4f4;
     padding: 10px;
   }
   
   nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
   }
   
   nav ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
   }
   
   nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
   }
   
-  nav ul li a:hover {
-    color: #555;
+  nav ul li a:hover,
+  nav ul li a:focus {
+    color: #cf1767;
   }
   
   nav ul li a.active {
-    color: #555;
-    border-bottom: 2px solid #333;
+    color: #cf1767;
+    border-bottom: 1px solid white;
   }
   
   /* Main content */
@@ -48,6 +55,10 @@
   
   h2 {
     margin-bottom: 20px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.4rem;
+    line-height: 1.4;
   }
   
   /* Projects and Blog Posts */
@@ -59,7 +70,7 @@
   }
   
   /* Responsive design */
-  @media (max-width: 600px) {
+  @media screen and (max-width: 600px) {
     body {
       font-size: 18px;
     }
@@ -72,12 +83,21 @@
   
   /* Footer */
   footer {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2;
+    padding-top: 0;
+    padding-bottom: 6.4rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.03);
+    color: rgba(255, 255, 255, 0.3);
+    position: relative;
     background-color: #f4f4f4;
     text-align: center;
     padding: 20px;
     margin-top: 20px;
   }
-
+  
   #topBtn {
     display: none;
     position: fixed;
@@ -91,9 +111,14 @@
     cursor: pointer;
     padding: 10px;
     border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    transition: all .3s;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
   
   #topBtn:hover {
-    background-color: #444;
+    background-color: #cf1767;
+    color: #ffffff;
   }
   

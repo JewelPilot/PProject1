@@ -134,3 +134,8 @@
 .download-button:hover {
     background-color: #0056b3;
 }
+.protraitimg {
+  border-radius: 50%;
+  width: 150px; /* adjust as needed */
+  height: 150px; /* adjust as needed */
+}

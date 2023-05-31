@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +9,8 @@
     height: 100%;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4; /* Changed from #050505 to #f4f4f4 for better contrast */
-    color: #333; /* Changed from #333 to #f4f4f4 for better readability */
+    background-color: #333; 
+    color: #f4f4f4; 
   }
   
   /* Navigation Bar */
@@ -19,7 +19,8 @@
     font-weight: 400;
     font-size: 2.4rem;
     line-height: 1.5;
-    background-color: #f4f4f4;
+    background-color: #b51259;
+    color: #f4f4f4;
     padding: 10px;
   }
   
@@ -90,9 +91,9 @@
     padding-top: 0;
     padding-bottom: 6.4rem;
     border-top: 1px solid rgba(255, 255, 255, 0.03);
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.7);
     position: relative;
-    background-color: #f4f4f4;
+    background-color: #cf1767;
     text-align: center;
     padding: 20px;
     margin-top: 20px;
@@ -136,6 +137,6 @@
 }
 .protraitimg {
   border-radius: 50%;
-  width: 150px; /* adjust as needed */
-  height: 150px; /* adjust as needed */
+  width: 150px;
+  height: 150px; 
 }

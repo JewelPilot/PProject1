@@ -24,3 +24,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
   });
 });
+// Scroll-Reveal Script
+ScrollReveal().reveal('#about-me-text', { 
+  delay: 500, // delay of 500ms
+  distance: '50px', // moves the element up by 50px
+  origin: 'bottom', // animate from bottom
+  reset: true // animates every time it's scrolled into view
+});

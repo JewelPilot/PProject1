@@ -168,5 +168,6 @@ footer {
  height: 70vh; 
 }
 #about-me-text {
-  font-size: 20px; 
+  font-size: 20px;
+  margin-bottom: 50px; 
 }

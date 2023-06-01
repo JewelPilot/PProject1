@@ -31,3 +31,14 @@ ScrollReveal().reveal('#about-me-text', {
   origin: 'bottom', // animate from bottom
   reset: true // animates every time it's scrolled into view
 });
+ScrollReveal().reveal('#skills', { delay: 400, 
+  distance: '50px',
+  origin: 'left',
+  reset: false
+});
+
+ScrollReveal().reveal('#future-goals', { delay: 600, 
+  distance: '50px', 
+  origin: 'right', 
+  reset: false
+});

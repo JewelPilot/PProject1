@@ -1,90 +1,103 @@
+/* Imoorting Google Font Library */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  html, body {
+}
+
+html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     background-color: #333; 
     color: #f4f4f4; 
-  }
-  
+}
+
   /* Navigation Bar */
-  nav {
-    font-family: 'Frank Ruhl Libre', serif;
-    font-weight: 400;
+nav {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     font-size: 2.4rem;
     line-height: 1.5;
     background-color: #b51259;
     color: #f4f4f4;
     padding: 10px;
-  }
-  
-  nav ul {
+    /* Transition */
+    transition: all 0.2s ease-in-out;
+}
+
+nav ul {
     list-style: none;
     padding: 0;
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
     display: inline-block;
     margin-right: 20px;
-  }
-  
-  nav ul li a {
+}
+
+nav ul li a {
     text-decoration: none;
     color: #ffffff;
-  }
-  
-  nav ul li a:hover,
-  nav ul li a:focus {
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
     color: #1717cf;
-  }
-  
-  nav ul li a.active {
+    /* Underline Text when a User hovers */
+    text-decoration: underline;
+}
+
+nav ul li a.active {
     color: #119e61;
     border-bottom: 1px solid white;
-  }
-  
+}
+
   /* Main content */
-  main {
+main {
     padding: 20px;
-  }
-  
-  h2 {
+}
+
+h2 {
     margin-bottom: 20px;
     color: #ffffff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 2.4rem;
     line-height: 1.4;
-  }
-  
-  /* Projects and Blog Posts */
-  .project, .blog-post {
+}
+
+.project, .blog-post {
     background-color: #1a0947;
     border: 1px solid #f4f4f4;
     padding: 20px;
     margin-bottom: 20px;
-  }
-  
-  /* Responsive design */
-  @media screen and (max-width: 600px) {
+    
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    /*Transition */
+    transition: all 0.2s ease-in-out;
+}
+
+.project:hover, .blog-post:hover {
+    /* Hover scales object */
+    transform: scale(1.02);
+}
+
+@media screen and (max-width: 600px) {
     body {
       font-size: 18px;
     }
-  
+
     nav ul li {
       display: block;
       margin-bottom: 10px;
     }
-  }
-  
+}
+
   /* Footer */
-  footer {
-    font-family: "Roboto", sans-serif;
+footer {
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 2;
@@ -97,9 +110,9 @@
     text-align: center;
     padding: 20px;
     margin-top: 20px;
-  }
-  
-  #topBtn {
+}
+
+#topBtn {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -112,37 +125,43 @@
     cursor: pointer;
     padding: 10px;
     border-radius: 4px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     transition: all .3s;
     background-repeat: no-repeat;
     background-position: center center;
-  }
-  
-  #topBtn:hover {
+}
+
+#topBtn:hover {
     background-color: #cf1767;
     color: #ffffff;
-  }
+}
   /*Flex to Center "Download CV Button" */
-  .center{
+.center{
     display: flex;
     justify-content: center;
-  }
-  .download-button {
+}
+
+.download-button {
     padding: 10px 20px;
     color: #ffffff;
     background-color: #007bff;
     border-radius: 5px;
     text-decoration: none;
     text-transform: uppercase;
+    /* Transition */
+    transition: all 0.2s ease-in-out;
 }
+
 .download-button:hover {
     background-color: #0056b3;
 }
+
 .protraitimg {
   border-radius: 50%;
   width: 300px;
   height: 300px; 
 }
+
 .imgcontainer{
  display: flex;
  justify-content: center;

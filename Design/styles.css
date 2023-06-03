@@ -95,6 +95,29 @@ h2 {
     }
 }
 
+@media screen and (max-width: 576px) {
+  /*Mobile screens */
+  .project,
+  .blog-post {
+    padding: 16px;
+  }
+
+  .project h3,
+  .blog-post h3 {
+    font-size: 2rem;
+  }
+
+  .project p,
+  .blog-post p {
+    font-size: 1.4rem;
+  }
+
+  .skills-container a {
+    margin: 0.2rem;
+  }
+}
+
+
   /* Footer */
 footer {
     font-family: "Poppins", sans-serif;
